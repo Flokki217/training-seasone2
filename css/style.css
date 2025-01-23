@@ -277,4 +277,179 @@ margin-bottom: 30px;}
     text-transform: uppercase;
     color: #303030;
 margin-bottom: 72px;}
- 
+ /* =================================BOOKING========================================= */
+        
+ .booking.container{width: 100%;}
+ .form-title {
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-size: 42px;
+          letter-spacing: 0.05em;
+          color: #fff;
+          margin-bottom: 44px;
+        }
+    
+        .form-label {
+          font-weight: 600;
+          font-size: 11px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: rgba(157, 164, 189, 0.4);
+          margin-bottom: 44px;
+        }
+    
+        .booking-input {
+          border: none;
+          outline: transparent;
+          border-bottom: 1px rgba(157, 164, 189, 0.4) solid;
+          color: white;
+          font-size: 18px;
+          background-color: transparent;
+          cursor: pointer;
+          width:418px;
+        }
+    
+        .booking-input::placeholder {
+          font-weight: 600;
+          font-size: 11px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: rgba(157, 164, 189, 0.4);
+          margin-bottom: 8px;
+          display: inline-block;
+        }
+    
+        .booking-input:focus+.booking-input::placeholder {
+          border-color: #fff;
+          color: #fff;
+        }
+    
+        .booking-input:is(:focus, :hover)::placeholder {
+          color: #fff;
+        }
+    
+        .booking-input:is(:focus, :hover) {
+          border-color: #fff;
+        }
+    
+        .input-second-wrapper {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .booking-txtarea {
+          margin-bottom: 44px;
+          background-color: transparent;
+          outline: none;
+          height: 60px;
+          resize: none;
+          position: relative;
+        }
+    
+        .booking-txtarea::placeholder {
+          font-weight: 600;
+          font-size: 11px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: rgba(157, 164, 189, 0.4);
+        }
+    
+        .form-btn {border: 1px solid #ff6c00;
+          border-radius: 25px;
+          width: 160px;
+          height: 40px;
+          font-weight: 600;
+          font-size: 12px;
+          letter-spacing: 0.09em;
+          text-transform: uppercase;
+          text-align: center;
+          color: #fff;
+          background-color: transparent;
+          transition: background-color 400ms cubic-bezier(1, 0.5, 1, 0.5);
+          margin-right: auto;
+          margin-left: auto;
+        }
+    
+        .form-btn:is(:focus, :hover) {
+          background: #ff6c00;
+        }
+    
+        .contacts-title {
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-size: 42px;
+          letter-spacing: 0.05em;
+          color: #fff;
+          margin-bottom: 44px;
+      text-align:center;
+        }
+    
+        .cotnacts-adress {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 167%;
+          letter-spacing: 0.02em;
+          color: #9da4bd;
+          margin-bottom: 20px;
+        }
+    
+        .cotnacts-adress.top {
+          font-weight: 700;
+        }
+    
+        .contact-adress.middle {
+          margin-bottom: 20px;
+        }
+    
+        .cotnacts-adress.lower {
+          text-decoration: underline;
+          text-decoration-skip-ink: none;
+          margin-bottom: 70px;
+        }
+    
+        .contacts-secondary-title {
+          font-weight: 600;
+          font-size: 11px;
+          text-transform: uppercase;
+          color: #fff;
+          margin-bottom: 20px;
+        }
+    
+        .contacts-txt {
+          font-size: 18px;
+          line-height: 167%;
+          letter-spacing: 0.02em;
+          color: #9da4bd;
+        }
+    
+        .booking-address {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .booking-form {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .booking-left-side {background-image: linear-gradient(#111319, #111319);
+          background-position: right;
+        padding:84px 31px;}
+         
+    .booking-right-side{background-image: url(../img/contacts-background.png), linear-gradient(#111319, #111319);
+      background-position: right;
+    padding: 84px 31px;}
+        .soc-icon {
+          width: 20px;
+          height: 20px;
+          color: #111319;
+          fill: black;
+        }
+    
+        .input-wrapper {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 44px;
+          gap: 30px;
+
+        }
