@@ -7,6 +7,7 @@ img {
     max-width: 100%;
     height: auto;
   }
+  a{text-decoration: none;;}
   *{box-sizing: border-box;}
   p,
   h1,
@@ -281,6 +282,7 @@ margin-bottom: 72px;}
         
  .booking .container{width: 480px;
 padding: 84px 0px;}
+.booking .top-txt::before{background-color: #9DA4BD;}
  .form-title {
           font-family: "Raleway", sans-serif;
           font-weight: 700;
@@ -308,6 +310,7 @@ padding: 84px 0px;}
           background-color: transparent;
           cursor: pointer;
           width:418px;
+          height:24px;
         }
     
         .booking-input::placeholder {
@@ -316,8 +319,6 @@ padding: 84px 0px;}
           letter-spacing: 0.1em;
           text-transform: uppercase;
           color: rgba(157, 164, 189, 0.4);
-          margin-bottom: 8px;
-          display: inline-block;
         }
     
         .booking-input:focus+.booking-input::placeholder {
@@ -342,7 +343,7 @@ padding: 84px 0px;}
           margin-bottom: 44px;
           background-color: transparent;
           outline: none;
-          height: 60px;
+          height: 76px;
           resize: none;
           position: relative;
         }
@@ -405,7 +406,6 @@ padding: 84px 0px;}
         .cotnacts-adress.lower {
           text-decoration: underline;
           text-decoration-skip-ink: none;
-          margin-bottom: 70px;
         }
     
         .contacts-secondary-title {
@@ -437,7 +437,7 @@ padding: 84px 0px;}
           background-position: right;
         padding:84px 31px;}
          
-    .booking-right-side{background-image: url(../img/contacts-background.png), linear-gradient(#111319, #111319);
+    .booking-right-side{background-image: url(../img/contacts-mob-background.png), linear-gradient(#111319, #111319);
       background-position: right;
     padding: 84px 31px;}
         .soc-icon {
@@ -454,3 +454,13 @@ padding: 84px 0px;}
           gap: 30px;
 
         }
+        .contacts-icon{width:24px;
+        height:24px;
+      stroke:#9da4bd;
+      fill:transparent;
+      margin-right: 16px;
+    }
+    .contacts-list{display: flex;
+    flex-direction: column;
+  gap:20px;
+margin-bottom: 44px;}

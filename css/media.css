@@ -47,10 +47,29 @@ flex-direction: column;}
             padding-top: 100px;
            padding-bottom: 106px;}
     .work-img{width:330px;
-    height:360px;}}
+    height:360px;}
+        .booking .container {
+            width: 768px;}
+                        .booking-right-side {
+                            background-image: url(../img/contacts-tab-background.png), linear-gradient(#111319, #111319);
+                        padding: 100px 120px 100px 39px;
+                    display: flex;
+                flex-direction: column;
+            flex-wrap: wrap;
+        height: 449px;}
+        .booking-left-side{padding: 100px 31px;}
+        .form-btn{margin-left: 0;}
+        .input-wrapper{flex-direction: row;}
+        .booking-input:last-child{max-width:330px;}
+        .booking-txtarea{width:100%;}
+        .contacts-list{margin-bottom: 0;}
+        .contacts-txt-wrapper{margin-top: 89px;
+        width: 249px;margin-left: auto;}
+        .contacts-title{text-align: start;}}
 @media screen and (min-width:1200px){.container {
     width: 1200px;
 padding:120px 15px;}
+.about .container{justify-content: center;}
 .about-list{flex-direction: row;}
 .about-item{width:270px;
 height:445px;}
@@ -86,7 +105,21 @@ width:570px;}
     padding-bottom:120px;}
 .work-list{flex-wrap:nowrap;}
 .work-img{width:270px;
-    height:360px;}}
+    height:360px;}
+         .booking .container {
+             width: 1600px;
+             display: flex;
+             padding: 0;
+         }
+                 .booking-left-side{padding: 130px 25px 174px 219px;}
+.booking-input:last-child {max-width: 270px}
+    .booking-right-side {
+width: 785px;
+background-image: url(../img/contacts-background.png), linear-gradient(#111319, #111319);
+ padding: 130px 0px 111px 105px;
+height: auto;}
+    .contacts-txt-wrapper{margin: 0}
+     .contacts-list {margin-bottom: 70px;}}
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         .barbers > .container {
           width: 480px;
