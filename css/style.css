@@ -17,7 +17,7 @@ img {
     margin: 0;
   }
   .container {
-    width: 100%;
+   
   padding:84px 15px;
     margin: 0 auto;
   }
@@ -82,7 +82,7 @@ width:100%;}
 .prices{background-image:  url(../img/prices-mob-background.png),linear-gradient(#111319, #111319);
   background-size: contain;
   border:1px solid #000;
- max-width:480px;
+ width:480px;
 margin:0 auto;}  
  .prices-list-wrapper{margin-bottom: 44px;
 display: flex;
@@ -227,6 +227,7 @@ margin-bottom: 20px;}
       .barbers-soc-link:is(:hover, :focus){fill:#ff6c00;}
  .barbers-list{display:flex;
   flex-wrap:wrap;
+  justify-content: center;
     gap:64px;}
 
 .barbers-text{font-weight: 600;
@@ -439,7 +440,8 @@ padding: 84px 0px;}
          
     .booking-right-side{background-image: url(../img/contacts-mob-background.png), linear-gradient(#111319, #111319);
       background-position: right;
-    padding: 84px 31px;}
+    padding: 84px 31px;
+  width:480px;}
         .soc-icon {
           width: 20px;
           height: 20px;

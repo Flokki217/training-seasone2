@@ -1,7 +1,7 @@
-/* 
+
 @media screen and (min-width:480px){
-    .container{width:448px;
-}} */
+    .container{width:480px;
+}}
 @media screen and (min-width:768px){
     .container{width:768px;
     padding: 100px 15px;}
@@ -20,7 +20,7 @@ flex-direction: column;}
     .about-text{margin-bottom: 77px;}
     .prices{background-image:  url(../img/prices-tab-background.png),linear-gradient(#111319, #111319);
         background-size:auto;
-    max-width:768px;}  
+    width:768px;}  
     .prices-list-wrapper{width:703px;}
     .prices-text{font-size: 18px;
         line-height: 167%;}
@@ -78,7 +78,7 @@ height:445px;}
 .about-text.up span{display: inline-block;}
 .about-title{font-size:42px;}
 .prices{background-image:  url(../img/prices-background.png),linear-gradient(#111319, #111319);
-max-width: 1600px;
+width: 1600px;
 justify-content: center;}
 .prices-list-wrapper{flex-direction:row;
 gap:30px;
