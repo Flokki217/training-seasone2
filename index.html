@@ -14,8 +14,39 @@
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-    <header></header>
+        <header class="header">
+          <div class="container header-container">
+            <nav class="header-nav">
+              <a href=""> <img class="icon-logo" src="./img/logo.png" alt="header-logo"></a>
+              <ul class="header-list">
+                <li> <a class="header-link" href="#About">About</a></li>
+                <li> <a class="header-link" href="#Services">Services and prices</a></li>
+                <li> <a class="header-link" href="#Barbers">Barbers</a></li>
+                <li> <a class="header-link" href="#Contacts">Contacts</a></li>
+              </ul>
+            </nav><a class="header-tel" href="tel:380441111111">+38 044 111 11 11</a> <button class="header-btn" data-modal-open
+              type="button">Online-booking</button>
+          </div>
+        </header>
     <main>
+<!-- ==============================HERO============================================ -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-soc">
+            <ul class="hero-list top-txt">
+              <li><a class="hero-link-item" href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+              <li><a class="hero-link-item" href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="hero-txt-wrapper">
+            <p class="hero-upper-text top-txt">hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-lower-text">We are experts in trendy men’s haircuts.
+              We work quickly, carefully and with style.</p>
+          </div>
+        </div>
+      </section>
+<!-- ============================ABOUT=================================================== -->
       <section class="about" id="About"><div class="container">
         <ul class="about-list">
           <li class="about-item"><picture>
@@ -30,8 +61,6 @@
             <source srcset="./img/about-img2-2x.jpg 2x">
             <img class="about-pic" src="./img/about-img2.jpg" alt="about-img2">
           </picture></li>
-            
-            
         </ul>
     <div class="about-txt-container">      <p class="about-top-text top-txt">ABOUT</p>
     <h2 class="about-title">Best Barbershop in your city</h2>
@@ -39,6 +68,8 @@
     <p class="about-text">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
     <button  class="about-btn" type="button">ONLINE-BOOKING</button>
     <div class="cube"></div></div></div> </section>
+
+    <!-- ======================================PRICES======================================================= -->
       <section class="prices" id="Services">
         <div class="container" >  <p class="prices-slogan-text top-txt">Spend your time with the best masters</p>
           <h2 class="prices-title">Services and prices</h2>
@@ -80,8 +111,8 @@
       </ul></div>
           <button class="prices-btn" type="button">online-booking</button></div>
          </section>
-
-
+<!-- 
+===========================================INFO========================================================== -->
       <section class="info">
         <div class="container">  <div class="info-txt-wrapper"><p class="info-upper-txt top-txt">Old traditional school</p>
          <h2 class="info-title">¿Why people come to us?</h2>
@@ -107,6 +138,7 @@
       </li>
   </ul> </div>
         </section>
+        <!-- ===============================================BARBERS=========================================================== -->
         <section class="barbers" id="Barbers">
             <div class="container">
               <p class="barbers-text top-txt">For true enjoyers of the atmosphere</p>
@@ -181,7 +213,7 @@
                   </li>
               </ul></div>
              </section>
-
+<!-- ==========================================OURWORKS=================================================== -->
         <section class="ourworks">
         <div class="container"> <p class="ourworks-txt top-txt">In Latin, "barba" means "beard"</p>
          <h2 class="visually-hidden">our works</h2>
@@ -203,6 +235,8 @@
                         <img src="./img/work-img4.jpg" alt="work4"></picture></li>
          </ul></div>
         </section>
+
+        <!-- ===============================================CONTACTS==================================================== -->
           <section class="booking">
             <div class="container">
               <div class="booking-left-side">
@@ -224,7 +258,7 @@
               </div>
           
               
-                <div class="booking-right-side"id="Contacts">
+                <div class="booking-right-side" id="Contacts">
                   <h2 class="contacts-title">Contacts</h2>
                   <address class="booking-address">
                     <ul class="contacts-list">
@@ -252,6 +286,7 @@
             </div>
           </section>
         </main>
+        <!-- =======================================FOOTER====================================================== -->
         <footer class="footer">
           <div class="container">
             <p class="footer-txt">&copy;Copyright 2020</p>

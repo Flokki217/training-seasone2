@@ -16,6 +16,9 @@ img {
   h4 {
     margin: 0;
   }
+    :root {
+      --background-gradient: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2))
+    }
   .container {
    
   padding:84px 15px;
@@ -34,6 +37,49 @@ width:100%;}
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;} 
+/* ====================================HEADER================================================= */
+.header>.container {
+  align-items: center;
+  display: flex;
+  transform: translateX(-17px);
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+}
+.header-list, .header-btn, .header-tel{display: none;}
+.icon-logo{position: absolute;;
+  top:40px;
+  left:31px;
+  width:69px;
+height:56px;
+filter: invert(100%);}
+    /* ===============================HERO===================================================== */
+    .hero>.container{padding: 0;}
+    .hero-txt-wrapper{
+      background-image: var(--background-gradient), url(../img/hero-mob-background.jpg);
+    display: flex;
+  flex-direction: column;
+padding:208px 128px 209px 31px ;}
+    .hero-upper-text {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: rgba(157, 164, 189, 0.6);
+      margin-bottom: 20px;
+    }
+    .hero-title{font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+      letter-spacing: 0.05em;
+      color: #fff;
+    margin-bottom: 20px;}
+      .hero-lower-text{font-size: 16px;
+        line-height: 162%;
+        letter-spacing: 0.02em;
+        color: #9da4bd;}
+        .hero-list{display: none;
+        opacity: 0;}
     /* ============================ABOUT================================================= */
 
     .about-item{display: none;}

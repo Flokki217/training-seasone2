@@ -5,6 +5,43 @@
 @media screen and (min-width:768px){
     .container{width:768px;
     padding: 100px 15px;}
+    .hero>.container{display: flex;}
+          .hero-txt-wrapper {width: 360px;
+            background-image: var(--background-gradient), url(../img/hero-tab-background.jpg);
+              padding: 272px 114px 237px 98px;
+            box-sizing: content-box;}
+
+                  .hero-lower-text {
+                      font-size: 18px;
+                      line-height: 167%;}
+                                          .hero-list {
+                                              display: flex;
+                                              opacity: 1;
+                                              transform: rotate(-90deg) translatey(100%);
+                                              transform-origin: bottom left;
+                                              gap: 40px;
+                                              align-items: baseline;
+                                          }
+                    
+                                          .hero-soc {
+                                              width: 100px;
+                                              display: flex;
+                                              align-items: flex-end;
+                                              padding-left: 27px;
+                                              padding-bottom: 40px;
+                                          }
+                    
+                                          .hero-link-item {
+                                              font-weight: 600;
+                                              font-size: 11px;
+                                              letter-spacing: 0.2em;
+                                              color: #303030;
+                                              transition: color 400ms cubic-bezier(1, 0.5, 1, 0.5);
+                                          }
+                    
+                                          .hero-link-item:is(:focus, :hover) {
+                                              color: #ff6c00
+                                          }
     .about>.container{display: flex;
     gap:30px;}
     .about-list{display:flex;
