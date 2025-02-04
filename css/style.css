@@ -38,19 +38,10 @@ width:100%;}
     clip: rect(0 0 0 0);
     overflow: hidden;} 
 /* ====================================HEADER================================================= */
-.header>.container {
-  display: flex;
-  transform: translateX(-17px);
-}
 
-.header {
-  position: absolute;
-  width: 100%;
-}
+
 .header-list, .header-btn, .header-tel{display: none;}
-.icon-logo{position: absolute;;
-  top:40px;
-  left:31px;
+.icon-logo{
   width:69px;
 height:56px;
 filter: invert(100%);}
@@ -60,6 +51,10 @@ filter: invert(100%);}
     .hero-txt-wrapper{
       background-image: var(--background-gradient), url(../img/hero-mob-background.jpg);
     display: flex;
+        flex-grow: 1;
+          background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
   flex-direction: column;
 padding:208px 128px 209px 31px ;}
     .hero-upper-text {
