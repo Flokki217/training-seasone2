@@ -38,13 +38,16 @@ width:100%;}
     clip: rect(0 0 0 0);
     overflow: hidden;} 
 /* ====================================HEADER================================================= */
-
-
 .header-list, .header-btn, .header-tel{display: none;}
 .icon-logo{
   width:69px;
 height:56px;
 filter: invert(100%);}
+.header>.container{padding: 0;}
+.header {position: absolute;
+ width: 100%;
+left: 40px;
+top: 40px;}
 
     /* ===============================HERO===================================================== */
     .hero>.container{padding: 0;}
