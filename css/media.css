@@ -76,9 +76,11 @@
         min-width: 160px;
         height: 36px;
         transition: color 400ms cubic-bezier(1, 0.5, 1, 0.5), background-color 400ms cubic-bezier(1, 0.5, 1, 0.5);
+        cursor: pointer;
+        
     }
 
-    .header-btn:is(:focus :hover) {
+    .header-btn:is(:focus, :hover) {
         background: #ff6c00;
     }
 
