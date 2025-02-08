@@ -17,7 +17,11 @@
         <header class="header">
           <div class="container header-container">
             <nav class="header-nav">
+          
               <a href=""> <img class="icon-logo" src="./img/logo.svg" alt="header-logo"></a>
+                      <div class="burger-icon" data-modal-open > <svg width="24px" height="16px">
+                          <use href="./img/modal-icons.svg#icon-menu"></use>
+                        </svg></div>
               <ul class="header-list">
                 <li> <a class="header-link" href="#About">About</a></li>
                 <li> <a class="header-link" href="#Services">Services and prices</a></li>
@@ -296,5 +300,21 @@
             </ul>
           </div>
         </footer>
+
+        <!-- ============================BACKDROP================================================== -->
+
+          <div class="backdrop visually-hidden" data-modal>
+            <div class="modal">
+              <div data-modal-close ><svg class="modal-btn"><use href="./img/modal-icons.svg#icon-close"></use></svg></div>
+            <nav class="modal-nav"><ul class="modal-list">
+              <li> <a class="modal-link" href="#About">About</a></li>
+              <li> <a class="modal-link" href="#Services">Services and prices</a></li>
+              <li> <a class="modal-link" href="#Barbers">Barbers</a></li>
+              <li> <a class="modal-link" href="#Contacts">Contacts</a></li>
+            </ul></nav>
+          
+          </div>
+          </div>
+          <script src="./js/modal.js"></script>
 </body>
 </html>
