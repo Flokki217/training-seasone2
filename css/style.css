@@ -59,7 +59,8 @@ top: 40px;}
   height:16px;
 }
     /* ===============================HERO===================================================== */
-    .hero>.container{padding: 0;}
+    .hero>.container{padding: 0;
+    min-width: 478px;}
     .hero-txt-wrapper{
       background-image: var(--background-gradient), url(../img/hero-mob-background.jpg);
     display: flex;
@@ -565,18 +566,20 @@ display: block;}
   top: 0;
   background-color: #9794946c;
   transition: opacity 300ms cubic-bezier(1, 1, 0.5, 1), visibility 300ms cubic-bezier(1, 1, 0.5, 1);
-  overflow-y: hidden;
+  overflow-x: hidden;
 
 }
 .modal{width:337px;
 position:absolute;
 top: 0;
 right: 0;
-padding:59px 31px 100px 40px;
+overflow-y:hidden;
+padding:59px 31px 100% 40px;
 background-color: #fff;}
 .modal-list{display: flex;
 flex-direction: column;
-gap:24px;}
+gap:24px;
+margin-bottom: 64px;}
 .modal-link{font-weight: 600;
   font-size: 18px;
   letter-spacing: 0.1em;
@@ -585,10 +588,46 @@ gap:24px;}
   .modal-link:is(:hover, :focus){
     color: #ff6c00;
   }
+  .btn-cover{margin-bottom: 30px;
+  justify-self:end;}
   .modal-btn{width:19px;
   height:19px;
 padding:11px;
 box-sizing:content-box;
-cursor:pointer;
-margin-bottom: 30px;
-justify-self: end;}
+cursor:pointer;}
+.modal-tel{font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;}
+  .modal-booking-btn{font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #303030;
+  border: 1px solid #ff6c00;
+    border-radius: 25px;
+    width: 194px;
+    height: 40px;
+  background:transparent;}
+  .modal-contact{display: flex;
+  flex-direction: column;
+gap:19px;
+margin-bottom: 69px;}
+  .modal-soc{font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: #303030;}
+    .modal-item:not(:first-child){margin-left: 100px;
+    margin-top: 24px;}
+    .modal-bottom-list{display: flex;
+      flex-wrap:wrap;
+    align-items: center;}
+        .modal-bottom-list::before {
+          content: "";
+          width: 60px;
+          height: 1px;
+          background-color: currentColor;
+          display: block;
+          margin-right: 40px;
+        }
