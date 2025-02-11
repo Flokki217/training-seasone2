@@ -28,8 +28,7 @@
                 <li> <a class="header-link" href="#Barbers">Barbers</a></li>
                 <li> <a class="header-link" href="#Contacts">Contacts</a></li>
               </ul>
-            </nav><div class="right-side-header"><a class="header-tel" href="tel:380441111111">+38 044 111 11 11</a> <button class="header-btn" data-modal-open
-              type="button">Online-booking</button></div>
+            </nav><div class="right-side-header"><a class="header-tel" href="tel:380441111111">+38 044 111 11 11</a> <a  class=" btn-style header-btn" href="#booking">Online-booking</a></div>
           </div>
         </header>
     <main>
@@ -70,7 +69,7 @@
     <h2 class="about-title">Best Barbershop in your city</h2>
     <p class="about-text up">If you want to add more confidence to your image, you should <span>definitely</span> visit us.</p>
     <p class="about-text">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
-    <button  class="about-btn" type="button">ONLINE-BOOKING</button>
+  <a href="#booking" class=" btn-style btn-style-black" type="button">ONLINE-BOOKING</a>
     <div class="cube"></div></div></div> </section>
 
     <!-- ======================================PRICES======================================================= -->
@@ -113,7 +112,7 @@
               <p class="prices-text lower">from 200 uah.</p>
           </li>
       </ul></div>
-          <button class="prices-btn" type="button">online-booking</button></div>
+         <a href="#booking" class=" prices-btn btn-style">online-booking</a></div>
          </section>
 <!-- 
 ===========================================INFO========================================================== -->
@@ -243,7 +242,7 @@
         <!-- ===============================================CONTACTS==================================================== -->
           <section class="booking">
             <div class="container">
-              <div class="booking-left-side">
+              <div class="booking-left-side" id="booking">
                 <h2 class="form-title">Online-booking</h2>
                 <form class="booking-form" name="signup_form" autocomplete="on">
                   <div class="input-wrapper">
@@ -257,7 +256,7 @@
                   </div>
                   <textarea title="What hairdue do you want?" class="booking-txtarea booking-input" name="message"
                     placeholder="Message"></textarea>
-                  <button class="form-btn" type="submit">send</button>
+                  <button class="form-btn btn-style" type="submit">send</button>
                 </form>
               </div>
           
@@ -307,13 +306,13 @@
             <div class="modal">
               <div class="btn-cover" data-modal-close ><svg class="modal-btn"><use href="./img/modal-icons.svg#icon-close"></use></svg></div>
             <nav class="modal-nav"><ul class="modal-list">
-              <li> <a class="modal-link" href="#About">About</a></li>
-              <li> <a class="modal-link" href="#Services">Services and prices</a></li>
-              <li> <a class="modal-link" href="#Barbers">Barbers</a></li>
-              <li> <a class="modal-link" href="#Contacts">Contacts</a></li>
+              <li> <a class="modal-link" data-modal-open href="#About">About</a></li>
+              <li> <a class="modal-link" data-modal-open href="#Services">Services and prices</a></li>
+              <li> <a class="modal-link" data-modal-open href="#Barbers">Barbers</a></li>
+              <li> <a class="modal-link" data-modal-open href="#Contacts">Contacts</a></li>
             </ul></nav>
-            <div class="modal-contact"><a class="modal-tel" href="tel:380441111111">+38 044 111 11 11</a> <button
-                class="modal-booking-btn" data-modal-open type="button">Online-booking</button></div>
+            <div class="modal-contact"><a class="modal-tel" href="tel:380441111111">+38 044 111 11 11</a> <a
+                class="modal-booking-btn btn-style" href="#booking" data-modal-open type="button">Online-booking</a></div>
                   <ul class="modal-bottom-list">
                     <li class="modal-item"><a class="modal-soc" href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
                     <li class="modal-item"><a class="modal-soc" href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>

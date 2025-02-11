@@ -19,6 +19,27 @@ img {
     :root {
       --background-gradient: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2))
     }
+        .no-scroll {
+          overflow: hidden;
+        }
+                    .btn-style {
+                      padding: 12px 20px;
+                      font-weight: 600;
+                      font-size: 12px;
+                      letter-spacing: 0.09em;
+                      text-transform: uppercase;
+                    color:#fff;
+                      background-color: transparent;
+                      border: 1px solid #ff6c00;
+                      border-radius: 25px;
+                      transition: color 400ms cubic-bezier(1, 0.5, 1, 0.5), background-color 400ms cubic-bezier(1, 0.5, 1, 0.5);
+                    }
+          
+                    .btn-style:is(:focus, :hover) {
+                      background: #ff6c00;
+                      color: #fff;
+                    }
+                    .btn-style-black{color:#303030}
   .container {
    
   padding:84px 15px;
@@ -117,21 +138,7 @@ padding:208px 128px 209px 31px ;}
             margin-bottom: 20px;
             letter-spacing: 0.02em;}
             .about-text.up span{display: none;}
-            .about-btn{
-             font-weight: 600;
-            font-size: 12px;
-            letter-spacing: 0.09em;
-            text-transform: uppercase;
-            color: #303030;
-            background-color: transparent;
-            border: 1px solid #ff6c00;
-            border-radius: 25px;
-            width: 160px;
-            height: 40px;
-            transition: color 400ms cubic-bezier(1, 0.5, 1, 0.5), background-color 400ms cubic-bezier(1, 0.5, 1, 0.5);
-                                }
-            .about-btn:is(:focus,:hover){background:#ff6c00;
-                color: #fff;}
+          
 /* =============================PRICES============================================== */
 .prices{background-image:  url(../img/prices-mob-background.png),linear-gradient(#111319, #111319);
   background-size: contain;
@@ -177,25 +184,9 @@ margin-bottom: 44px;}
           line-height: 143%;
           letter-spacing: 0.02em;
           color: #9da4bd;}
-          .prices-btn{font-weight: 600;
-            font-size: 12px;
-            letter-spacing: 0.09em;
-            text-transform: uppercase;
-            color: #fff;
-            background: transparent;
-            border: 1px solid #ff6c00;
-            border-radius: 25px;
-            width: 160px;
-            height: 40px;
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
-            transition: background-color 400ms cubic-bezier(1, 0.5, 1, 0.5);
-        }
-        .prices-btn:is(:focus, :hover){
-            background: #ff6c00;
-            
-        }
+          .prices-btn{margin:0 auto;
+          display:block;
+        width:fit-content}
     /* =======================INFO=============================================== */
  .info{display: flex;}
 .info-list{
@@ -411,25 +402,6 @@ padding: 0px 0px;}
           color: rgba(157, 164, 189, 0.4);
         }
     
-        .form-btn {border: 1px solid #ff6c00;
-          border-radius: 25px;
-          width: 160px;
-          height: 40px;
-          font-weight: 600;
-          font-size: 12px;
-          letter-spacing: 0.09em;
-          text-transform: uppercase;
-          text-align: center;
-          color: #fff;
-          background-color: transparent;
-          transition: background-color 400ms cubic-bezier(1, 0.5, 1, 0.5);
-          margin-right: auto;
-          margin-left: auto;
-        }
-    
-        .form-btn:is(:focus, :hover) {
-          background: #ff6c00;
-        }
     
         .contacts-title {
           font-family: "Raleway", sans-serif;
@@ -487,7 +459,8 @@ padding: 0px 0px;}
           display: flex;
           flex-direction: column;
         }
-    
+    .form-btn{width:160px;
+    margin:0 auto;}
         .booking-left-side {background-image: linear-gradient(#111319, #111319);
           background-position: right;
         padding:84px 31px;}
@@ -600,16 +573,10 @@ cursor:pointer;}
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #303030;}
-  .modal-booking-btn{font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
+  .modal-booking-btn{
+    text-align:center;
     color: #303030;
-  border: 1px solid #ff6c00;
-    border-radius: 25px;
-    width: 194px;
-    height: 40px;
-  background:transparent;}
+    width: 194px;}
   .modal-contact{display: flex;
   flex-direction: column;
 gap:19px;
